@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+#web-terminal-window {
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+  overflow-y: auto;
+  margin: 0px;
+  background-color: #282c34;
+  box-shadow: rgba(4, 4, 4, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.web-terminal-command-history {
+  width: 100%;
+  display: flex;
+}
+
+#web-terminal-command-box {
+  width: 100%;
+  display: flex;
+}
+
+#web-terminal-user, .web-terminal-user {
+  margin: 0px;
+  padding: 10px 10px 0px 10px;
+  font-size: 1em;
+  font-family: 'Fira Code', monospace;
+  color: #20e00b;
+  min-width: 180px;
+}
+
+#web-terminal-command, .web-terminal-command {
+  border: 0px;
+  font-size: 1em;
+  font-family: 'Fira Code', monospace;
+  width: 100%;
+  padding: 10px 0px 0px 10px;
+  color: white;
+}
+#web-terminal-command {
+  background-color: #282c34;
+}
+#web-terminal-command:focus {
+  border: 0px;
+  outline: none;
+}
+
+#web-terminal-error-result > p {
+  margin: 0px;
+  color: lightpink;
+  font-size: 1em;
+  font-family: 'Fira Code', monospace;
+  padding: 0px 0px 0px 10px;
+}
+
+#web-terminal-success-result > a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+}
+
+#web-terminal-success-result > p {
+  color: white;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+}
