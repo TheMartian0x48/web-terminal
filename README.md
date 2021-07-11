@@ -22,6 +22,9 @@
         <li><a href="#technology">Technology</a></li>
       </ul>
     </li>
+         <li>
+      <a href="#run-locally">Run locally</a>
+      </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -47,6 +50,7 @@
 
 
 
+
 ## Introduction
 
 Web-Terminal is a limited-command supported terminal for websites. you can navigate website just like you can navigate directory in Linux, window or macOS using terminal.
@@ -56,6 +60,20 @@ Web-Terminal is a limited-command supported terminal for websites. you can navig
 - [JavaScript](https://www.javascript.com/)
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Run locally
+
+Run this command in shell
+
+```shell
+git clone https://github.com/TheMartian0x48/web-terminal.git
+cd web-terminal
+python3 -m http.server --bind 127.0.0.1 8080
+```
+
+then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/) in browser. 
+
+Now, you have a running Web Terminal. 
 
 ## Getting Started
 
