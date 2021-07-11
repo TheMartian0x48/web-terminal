@@ -1,5 +1,6 @@
 /*jshint esversion: 6 */
 
+const url = document.location + "web-terminal.json";
 
 /**
  * class representing a tree node
@@ -490,7 +491,6 @@ function welcome() {
   terminal.appendChild(div);
 }
 
-url = document.location + "web-terminal.json";
 
 let terminal = new WebTerminal();
 /**
