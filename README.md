@@ -36,6 +36,8 @@
         <li><a href="#example">Example</a></li>
       </ul>
      </li>
+  <li><a href="#styling-web-terminal">Styling Web Terminal</a></li>
+  <li><a href="#adding-command">Adding Command</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -179,13 +181,41 @@ Each directory is a dictionary and must have following information
 
 
 
-## Styling web Terminal
+## Styling Web Terminal
 
 TODO
 
 ## Adding Command
 
-TODO
+Each command is a class which extend the `Command`class. 
+
+`Command`class provide you with 
+
+* `displayErrorMessage()` method : display error message
+* `getName()` method : return name of the command
+
+- `name` property: string representing name of the command
+- `errorMessage` property: error message that will be shown on terminal if you call  `displayErrorMessage()` method
+
+Your command must entend `Command` class and add `execute()` method.
+
+```javascript
+execute(filesystem, command){
+    // your code
+}
+filesystem 
+	- datatype : Tree object
+	- reference to Tree representing current file structure
+command 
+	- datatype : string[]
+	- list of command and it parameter
+    Example for command 'open about'
+	command = ["open", "about"]
+```
+
+your command class should be responsible for validation of paramters. 
+
+finally, add an object of your command class to `terminal` object of `WebTerminal` which you will found at the end of `web-terminal.js` file.
 
 ## License
 
