@@ -1,0 +1,49 @@
+{
+  "user": "TheMartian0x48",
+  "root": {
+    "name": "/",
+    "link": "https://themartian0x48.github.io/index.html",
+    "files": [
+      [
+        "blog",
+        "https://themartian0x48.github.io/pages/blog.html"
+      ],
+      [
+        "project",
+        "https://themartian0x48.github.io/pages/project.html"
+      ],
+      [
+        "resume",
+        "https://themartian0x48.github.io/pages/resume.html"
+      ],
+      [
+        "about",
+        "https://themartian0x48.github.io/pages/about.html"
+      ]
+    ],
+    "children": [
+      {
+        "name": "adventure",
+        "link": "https://themartian0x48.github.io/pages/adventure.html",
+        "files": [
+          [
+            "Project-Euler",
+            "https://themartian0x48.github.io/pages/adventure/project-euler.html"
+          ],
+          [
+            "Bandit-by-OverTheWire",
+            "https://themartian0x48.github.io/pages/adventure.html"
+          ]
+        ],
+        "children": [
+          {
+            "name": "project-euler",
+            "link": "https://themartian0x48.github.io/pages/adventure/project-euler.html",
+            "files": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
