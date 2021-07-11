@@ -7,7 +7,7 @@
 </p>
 
 
-![](web-terminal.png)
+![](readme-asset/web-terminal.png)
 
 <p align="center">
       <img  src="https://forthebadge.com/images/badges/made-with-javascript.svg"> 
@@ -36,12 +36,13 @@
         <li><a href="#example">Example</a></li>
       </ul>
      </li>
-  <li><a href="#styling-web-terminal">Styling Web Terminal</a></li>
-  <li><a href="#adding-command">Adding Command</a></li>
+<li><a href="#adding-command">Adding Command</a></li>
+<li><a href="#styling-web-terminal">Styling Web Terminal</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </details>
+
 
 
 
@@ -181,10 +182,6 @@ Each directory is a dictionary and must have following information
 
 
 
-## Styling Web Terminal
-
-TODO
-
 ## Adding Command
 
 Each command is a class which extend the `Command`class. 
@@ -216,6 +213,13 @@ command
 your command class should be responsible for validation of paramters. 
 
 finally, add an object of your command class to `terminal` object of `WebTerminal` which you will found at the end of `web-terminal.js` file.
+
+## Styling Web Terminal
+
+![](readme-asset/css-guide.png)
+
+
+![](readme-asset/css-guide-2.png)
 
 ## License
 
