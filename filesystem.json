@@ -1,0 +1,21 @@
+{
+  "root" : {
+    "name" : "Index",
+    "url" : "/",
+    "isDirectory" : true,
+    "children" : [
+      {
+        "name" : "pageA",
+        "url" : "/pageA.html",
+        "isDirectory" : false,
+        "children" : []
+      },
+      {
+        "name" : "DirA",
+        "url" : "/dirA.html",
+        "isDirectory" : true,
+        "children" : []
+      }
+    ]
+  }
+}
